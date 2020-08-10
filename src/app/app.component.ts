@@ -13,7 +13,7 @@ export class AppComponent {
        this.todoArray.push(value)
        console.log(this.todoArray) 
     } else {
-      alert('Field required **');
+      alert('No todo found...');
     }
   }
 }
