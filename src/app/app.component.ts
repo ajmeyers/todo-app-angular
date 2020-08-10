@@ -27,10 +27,6 @@ export class AppComponent {
         this.todoArray.splice(i, 1);
         console.log(this.todoArray);
       }
-      else {
-        alert("Error with removing todo...");
-        break;
-      }
     }
   }
 }
